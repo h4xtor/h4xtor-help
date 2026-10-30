@@ -1,0 +1,39 @@
+TRIN 1 - DU DELER DIN SKÆRM (VÆRT)
+1. Kopiér rum og kode med de to knapper nederst i vinduet.
+2. Har I en relay-server: skriv den med porten i felterne.
+   Har I ingen relay: lad Relay-server stå tomt = direkte LAN.
+3. Tryk Start delingen - statuslinjen viser, at du deler.
+4. Send til din ven via chat eller SMS, adskilt i tre:
+   - relay-adresse og port (fx mit-relay.dk 6767)
+   - dit rum-ID (fx 482913)
+   - din adgangskode (fx KW93MN)
+5. Når vennen forbinder, viser vinduet, at der er forbundet.
+
+TRIN 2 - DIN VEN FORBINDER (SEER)
+1. Åbn Fjern hos dig og vælg Fjernstyring i venstre side.
+2. Tast samme relay-adresse og port, som værten oplyste.
+3. Tast rum-ID og adgangskode, som værten sendte dig.
+4. Direkte LAN i stedet: lad Relay-server stå tomt,
+   skriv værtens IP i "Direkte: din vens IP",
+   og porten i "Direkte: port" (porten = værtens port + 1).
+5. Tryk Forbind - så åbner vinduet med værtens skærm.
+
+TRIN 3 - NÅR FORBINDELSEN STÅR
+- Værten kan tillade eller afvise styring af mus og tastatur.
+- F11 slår fuld skærm til og fra for seeren.
+- Chat og filoverførsel virker undervejs i begge ender.
+- Slut: seeren lukker vinduet, værten trykker Stop delingen.
+
+HVAD BETYDER FELTET
+- Relay-server: fælles mellemserver, I forbinder gennem.
+  Relayen ser kun krypterede data - aldrig selve skærmen.
+- Relay-port: standard er 6767.
+- Rum-ID: navnebrik på rummet - tastes identisk hos begge.
+- Adgangskode: lågen i rummet. Del den kun med folk, du stoler på.
+- Direkte: din vens IP: bruges kun, når Relay-server er tomt.
+
+TIP OG PROBLEMER
+- Afvist forbindelse: tjek port og firewall hos begge parter.
+- Intet billede: værten skal trykke Start delingen først.
+- Direkte LAN virker kun på samme netværk - over internettet brug relay.
+- Ingen styring: værten har afkrydset "Tillad at din ven styrer".

@@ -1,0 +1,6 @@
+# Binære buildoutput - FjernAdmin.exe, FjernUser.exe og FjernRelay.exe committes med vilje
+// Fil: .gitignore - sammenholdt med repo
+*.pdb
+*.log
+*.png
+*.aps

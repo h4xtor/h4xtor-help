@@ -1,4 +1,4 @@
-# Fjern — skærmdeling og fjernstyring (hjælpeværktøj) · h4xtor-help
+# h4xtor-helper — skærmdeling og fjernstyring (hjælpeværktøj) · h4xtor-helper
 
 **2 EXE:**
 - `FjernAdmin.exe` — til dig (hjælper): tast rum + kode, Forbind — fuld skærm, mus + tastatur, tale, webcam, skærmbillede.
